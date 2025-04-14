@@ -50,7 +50,7 @@ function App() {
     <div className={`main-container ${isFormOpen? 'blur':''}`}>
       <h1>Student Database</h1>
       <div style={{display:"flex",width:"100%",justifyContent:"flex-end"}}>
-      <button id="add" onClick={()=>{setIsFormOpen(true)}}>Add student</button>
+      <button id="add" onClick={()=>{handleInput()}}>Add student</button>
       </div>
       <table>
         <thead>
