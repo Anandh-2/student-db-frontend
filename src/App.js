@@ -34,6 +34,8 @@ function App() {
     if(student){
       setUserData(student);
       setFormMode("edit");
+    }else{
+      setFormMode("create");
     }
   }
 
