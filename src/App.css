@@ -69,3 +69,17 @@ button:hover{
 .blur{
   filter: blur(10px);
 }
+
+.search{
+  margin: 20px;
+  width: 80%;
+  padding: 10px 20px 10px 20px;
+  font-size: large;
+  border: 2px solid #E9ECEF;
+  border-radius: 5px;
+  outline: none;
+
+  &:focus{
+    border: 2px solid #343a40;
+  }
+}
